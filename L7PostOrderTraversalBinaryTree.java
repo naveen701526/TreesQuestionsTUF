@@ -21,8 +21,8 @@ public class L7PostOrderTraversalBinaryTree {
     private static void postOrderTraversal(Node root) {
         if (root == null) return;
         postOrderTraversal(root.left);
-        System.out.println(root.data);
         postOrderTraversal(root.right);
+        System.out.println(root.data);
     }
 }
 
